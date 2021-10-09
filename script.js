@@ -62,3 +62,7 @@ $(document).ready(function(){
     $(".next").css("opacity", 0);
   });
 });
+
+$('#navbarButton').click(() => {
+  $(".mytopnav").css({display: 'block'});
+})
