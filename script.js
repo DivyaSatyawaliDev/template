@@ -63,6 +63,6 @@ $(document).ready(function(){
   });
 });
 
-$('#navbarButton').click(() => {
+$('#navbarbutton').click(() => {
   $(".mytopnav").css({display: 'block'});
 })
