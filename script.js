@@ -8,7 +8,7 @@ function plusSlides(n) {
   stopShow();
 }
 function startShow(){
-timer = setTimeout("showSlides()", 3000);
+timer = setTimeout("showSlides()",4000);
 }
 function stopShow() {
 clearTimeout(timer);
@@ -51,8 +51,8 @@ $(document).ready(function(){
     stopShow();
     $(".prev").css("opacity", 1);
     $(".next").css("opacity", 1);
-    $(".prev").css({"padding-left": '16px'});
-    $(".next").css({"padding-right": '16px'});
+    $(".prev").css({"padding-left": '18px'});
+    $(".next").css({"padding-right": '18px'});
   });
   $(".slideshow-container").mouseout(function(){
     startShow();
