@@ -66,3 +66,7 @@ $(document).ready(function(){
 $('#navbarbutton').click(() => {
   $(".mytopnav").css({display: 'block'});
 })
+
+function myFunction2() {
+  $(".mytopnav").css({display: 'block'});
+}

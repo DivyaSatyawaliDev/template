@@ -315,6 +315,10 @@ button:hover{
 	border: 2px solid saddlebrown;
 	font-style: italic;
 }
+.btn2 {
+	color:royalblue;
+	border-radius: 20%;
+}
 @media screen and (max-width: 1000px) {
   .topnav li:not(:first-child) {display: none;}
   .topnav li.icon {
