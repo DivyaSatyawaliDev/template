@@ -400,3 +400,16 @@ button:hover{
 .topnav {
 	overflow:hidden;
 }
+
+@media screen and (max-width: 400px) {
+	.inner1{
+		width:80%;
+	}
+	.head {
+		margin-left: 40px;
+	}
+	.grid-cont {
+		padding-left:0px;
+		padding-right: 0px;
+	}
+}
